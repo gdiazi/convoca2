@@ -1,9 +1,6 @@
 const express = require('express');
-const cors = require('cors'); // <--- importar cors
 const app = express();
 
-
-app.use(cors()); // <--- habilitar CORS para todas las rutas
 app.use(express.json());
 
 const express = require('express');
