@@ -2,6 +2,9 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const app = express();
+const cors = require("cors");
+app.use(cors()); // Permite todas las peticiones
+
 const PORT = 3000;
 
 app.use(express.json());
